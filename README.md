@@ -32,6 +32,10 @@ php artisan vendor:publish --tag=sanctum-config
 php artisan migrate
 ```
 
+```
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+````
+
 ---
 
 # 🚀 Step 3: Configure Sanctum (Laravel 12 way)
